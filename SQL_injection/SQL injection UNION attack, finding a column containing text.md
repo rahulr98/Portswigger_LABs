@@ -17,7 +17,7 @@ Query made:
   
   - We need to use the UNION SELECT payload using 3 NULL values. Try thetring value *SYzz32* in one NULL value to see if it returns that string. If it does , then it means the column contains string data else it is not sting data.
 
-`SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'33eWHU',NULL`
+`SELECT * FROM someTable WHERE category = '<CATEGORY>' UNION SELECT NULL,'SYzz32',NULL`
 
 ![1](https://github.com/rahulr98/Portswigger_LABs/assets/116432525/daf680f5-6472-4885-ba7a-31613f1df330)
 
